@@ -1,0 +1,192 @@
+
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    font-family: Noto Serif Japanese;
+    background-image: url(/img/background-img.jpg);
+    background-size:cover;
+    }
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+        /* headerを固定 z-indexで重なりを前に*/
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    padding-top:110px;
+}
+
+.subtitle {
+    font-size:16px;
+    font-weight: bold;
+}
+
+.titlelogo {
+    height: 80px;
+}
+
+p {
+    font-size:14px;
+}
+
+.card {
+    margin:10px;
+}
+
+.card-title {
+    font-size:14px;
+    font-weight: bold;
+}
+
+
+.travelicon {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    margin :0 auto;
+}
+
+.option {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.travel{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 20px;
+
+}
+
+#travel1 {
+
+    padding-left:10px;
+}
+
+#travel2 {
+    padding-top:10px;
+    font-size: 14px;
+}
+
+#travel3 {
+    padding-top:10px;
+    font-size: 14px;
+}
+
+#travel4 {
+    border: 2px solid gray;
+    width: 504px;
+    margin:auto;
+}
+
+.ya {
+    padding-top:10px;
+    font-size: 20px;
+    color: grey;
+}
+
+
+
+.btn-mood01 {
+    background-image: url(/img/background-img.jpg);
+    color:rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+
+.btn-mood01:hover {
+    background-image: url(/img/background-img.jpg);
+    transform: translateY(5px);
+    color:rgb(0, 0, 0);
+    border:none solid 2px;
+    cursor: pointer;
+}
+
+.btn-mood02 {
+    background-image: url(/img/background-img.jpg);
+    color:rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.btn-mood02:hover {
+    background-image: url(/img/background-img.jpg);
+    transform: translateY(5px);
+    color:rgb(0, 0, 0);
+    border:none solid 2px;
+    cursor: pointer;
+}
+
+.btn-mood03 {
+    background-image: url(/img/background-img.jpg);
+    color:rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+
+.btn-mood03:hover {
+    background-image: url(/img/background-img.jpg);
+    transform: translateY(5px);
+    color:rgb(0, 0, 0);
+    border:none solid 2px;
+    cursor: pointer;
+}
+
+.decision {
+    display: inline-flex;
+    width: 700px;
+    height: 350px;
+    background-color: rgb(240, 248, 255,0.5);
+}
+
+.decision_container {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.YourChoice {
+    color: rgb(230, 91, 91);
+    font-weight: bold;
+    text-align: center;
+}
+
+.YourDestiny {
+    color: rgb(73, 147, 232);
+    font-weight: bold;
+    text-align: center;
+}
+
+#decision01 {
+    margin:10px;
+    border-radius: 25px;
+    border: 2px solid rgb(228, 175, 175);
+}
+
+#decision02 {
+    margin:10px;
+    border-radius: 25px;
+    border: 2px solid rgb(161, 185, 230);
+}
+
