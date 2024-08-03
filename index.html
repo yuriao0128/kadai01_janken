@@ -48,10 +48,10 @@
     <div class="decision">
         <div class="decision_container">
         <div class="YourChoice">YourChoice
-        <p>選んだものが設定されます</p><img id="decision01" src="/img/mood.jpg" width="200" height="180"></div>
+        <p>選んだものが設定されます</p><img id="decision01" src="img/mood.jpg" width="200" height="180"></div>
         <h1>×</h1>
         <div class="YourDestiny">Recommend
-        <p>自動で行先が設定されます</p><img id="decision02" src="/img/destiny.jpg" width="200" height="180"></div>
+        <p>自動で行先が設定されます</p><img id="decision02" src="img/destiny.jpg" width="200" height="180"></div>
         </div>
     </div>
 <div class="travel">
@@ -61,7 +61,7 @@
 </div>
     <div class="ya">▼ ▼ ▼</div>
     <br>
-    <div id="travel4"><img id="plan" src="/img/plan.jpg" width="500" height="310"></div>
+    <div id="travel4"><img id="plan" src="img/plan.jpg" width="500" height="310"></div>
     <br>
 </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -78,11 +78,11 @@
     let destiny_r = Math.floor( Math.random() * 3);
    
 if (p_travel_r === 0){
-    document.getElementById("decision01").src ="/img/mood0.jpg";    
+    document.getElementById("decision01").src ="img/mood0.jpg";    
 } else if (p_travel_r === 1){
-    document.getElementById("decision01").src ="/img/mood1.jpg";      
+    document.getElementById("decision01").src ="img/mood1.jpg";      
 } else {
-    document.getElementById("decision01").src ="/img/mood2.jpg"; 
+    document.getElementById("decision01").src ="img/mood2.jpg"; 
 }
 
 if ( destiny_r === 0 ){
@@ -94,30 +94,30 @@ if ( destiny_r === 0 ){
 }
 
 if (p_travel_r === 0 && destiny_r === 0 ){
-    document.getElementById("plan").src ="/img/plan00.jpg";   
+    document.getElementById("plan").src ="img/plan00.jpg";   
 }else if (p_travel_r === 1 && destiny_r === 0 ){
-    document.getElementById("plan").src ="/img/plan10.jpg";
+    document.getElementById("plan").src ="img/plan10.jpg";
 }else if (p_travel_r === 2 && destiny_r === 0 ){
-    document.getElementById("plan").src ="/img/plan20.jpg"; 
+    document.getElementById("plan").src ="img/plan20.jpg"; 
 }else if (p_travel_r === 0 && destiny_r === 1 ){
-    document.getElementById("plan").src ="/img/plan01.jpg";
+    document.getElementById("plan").src ="img/plan01.jpg";
 }else if (p_travel_r === 1 && destiny_r === 1 ){
-    document.getElementById("plan").src ="/img/plan11.jpg";
+    document.getElementById("plan").src ="img/plan11.jpg";
 }else if (p_travel_r === 2 && destiny_r === 1 ){
-    document.getElementById("plan").src ="/img/plan21.jpg";
+    document.getElementById("plan").src ="img/plan21.jpg";
 }else if (p_travel_r === 0 && destiny_r === 2 ){
-    document.getElementById("plan").src ="/img/plan02.jpg";
+    document.getElementById("plan").src ="img/plan02.jpg";
 }else if (p_travel_r === 1 && destiny_r === 2 ){
-    document.getElementById("plan").src ="/img/plan12.jpg";
+    document.getElementById("plan").src ="img/plan12.jpg";
 }else if (p_travel_r === 2 && destiny_r === 2 ){
-    document.getElementById("plan").src ="/img/plan22.jpg";
+    document.getElementById("plan").src ="img/plan22.jpg";
 }
 
-    // document.getElementById("decision01").src ="/img/mood" + travel_r +".jpg";
+    // document.getElementById("decision01").src ="img/mood" + travel_r +".jpg";
     document.getElementById("travel1").innerHTML = "あなたは、【" + travel[p_travel_r] + "】なんですね。";
     document.getElementById("travel2").innerHTML = "オススメしたい場所は、【" + destiny[destiny_r] + "】です。" ;
     document.getElementById("travel3").innerHTML = Result_end;
-    document.getElementById("decision02").src ="/img/destiny" + destiny_r +".jpg";
+    document.getElementById("decision02").src ="img/destiny" + destiny_r +".jpg";
     }
 </script>
 </html>
