@@ -6,7 +6,7 @@ body {
     margin-top: 10px;
     width: 100%;
     font-family: Noto Serif Japanese;
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     background-size:cover;
     }
 
@@ -106,7 +106,7 @@ p {
 
 
 .btn-mood01 {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     color:rgb(0, 0, 0);
     border-bottom: 4px solid rgb(0, 0, 0);
     transition: 0.2s;
@@ -114,7 +114,7 @@ p {
 
 
 .btn-mood01:hover {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     transform: translateY(5px);
     color:rgb(0, 0, 0);
     border:none solid 2px;
@@ -122,14 +122,14 @@ p {
 }
 
 .btn-mood02 {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     color:rgb(0, 0, 0);
     border-bottom: 4px solid rgb(0, 0, 0);
     transition: 0.2s;
 }
 
 .btn-mood02:hover {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     transform: translateY(5px);
     color:rgb(0, 0, 0);
     border:none solid 2px;
@@ -137,7 +137,7 @@ p {
 }
 
 .btn-mood03 {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     color:rgb(0, 0, 0);
     border-bottom: 4px solid rgb(0, 0, 0);
     transition: 0.2s;
@@ -145,7 +145,7 @@ p {
 
 
 .btn-mood03:hover {
-    background-image: url(/img/background-img.jpg);
+    background-image: url(img/background-img.jpg);
     transform: translateY(5px);
     color:rgb(0, 0, 0);
     border:none solid 2px;
